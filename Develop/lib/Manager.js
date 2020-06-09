@@ -1,6 +1,6 @@
 // TODO: Write code to define and export the Manager class. HINT: This class should inherit from Employee.
 class Manager {
-    constructor(name, id, email, officeNumber) {
+    constructor(name, id, email) {
         this.name = name;
         this.id = id;
         this.email = email;
@@ -16,8 +16,8 @@ class Manager {
     getEmail() {
         return this.email;
     }
-    getofficeNumber() {
-        return this.officeNumber;
+    getOfficenumber() {
+        return this.Officenumber;
     }
     getRole() {
         return "Manager";
