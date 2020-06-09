@@ -73,4 +73,4 @@ function renderer() {
 
 };
 
-render();
+renderer();
